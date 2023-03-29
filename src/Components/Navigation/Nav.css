@@ -1,0 +1,30 @@
+nav {
+    background-color: lightseagreen;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 25px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    box-shadow: 2px 4px #1c7f78;
+}
+nav ul{
+    display: flex;
+    gap: 60px;
+    color: White;
+    list-style: none;
+}
+
+nav a{
+    padding: 5px;
+    color: white;
+    text-decoration: transparent;
+    border: 1px solid white;
+}
+
+.active{
+    background-color: white;
+    color: lightseagreen;
+}
+
+
+

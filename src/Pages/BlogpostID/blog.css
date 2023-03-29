@@ -1,0 +1,55 @@
+.blog-container{
+    margin-top: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    max-width: 30vw;
+    height: 23vh;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 30px;
+    border-bottom: solid rgba(0, 0, 0, 0.3) 5px;
+    border-left: solid rgba(0, 0, 0, 0.3) 3px;
+    border-right: solid rgba(0, 0, 0, 0.3) 3px;
+    box-shadow: 10px 4px rgba(0, 0, 0, 0.3);
+}
+.outercontainerblog{
+    display: flex;
+    justify-content: center;
+
+}
+
+.nextCon{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.next{
+    background-color: white;
+    padding: 10px;
+    border-bottom: solid rgba(0, 0, 0, 0.3) 5px;
+    border-left: solid rgba(0, 0, 0, 0.3) 3px;
+    border-right: solid rgba(0, 0, 0, 0.3) 3px;
+    box-shadow: 10px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+.nextCon a{
+    text-decoration: none;
+    color: black;
+}
+.innercontainertext{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    width: 40vw;
+    height: 20vh;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 30px;
+    border-bottom: solid rgba(0, 0, 0, 0.3) 5px;
+    border-left: solid rgba(0, 0, 0, 0.3) 3px;
+    border-right: solid rgba(0, 0, 0, 0.3) 3px;
+    box-shadow: 10px 4px rgba(0, 0, 0, 0.3);
+}
