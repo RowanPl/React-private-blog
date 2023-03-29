@@ -1,0 +1,39 @@
+Li{
+    list-style: none;
+}
+.innercontainer a:visited{
+
+    color: black;
+    gap: 20px
+}
+.innercontainerblog a{
+
+    color: black;
+    gap: 10px;
+    text-decoration: none;
+}
+.innercontainerblog ul{
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.blogcontainer{
+    display: flex;
+    justify-content: center;
+flex-basis: 40vw;
+}
+.innercontainerblog{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    max-width: 40vw;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 30px;
+    border-bottom: solid rgba(0, 0, 0, 0.3) 5px;
+    border-left: solid rgba(0, 0, 0, 0.3) 3px;
+    border-right: solid rgba(0, 0, 0, 0.3) 3px;
+    box-shadow: 10px 4px rgba(0, 0, 0, 0.3);
+}
